@@ -65,8 +65,12 @@ public class Aims {
 
 		DigitalVideoDisc dvd21 = new DigitalVideoDisc("The Avengers", "Action", "Joss Whedon", 143, 20.00f);
 		anOrder.removeDigitalVideoDisc(dvd21);
+		
+		
+		//System.out.println("Total cost is: ");
+		//System.out.println(anOrder.totalCost());
+		anOrder.printCart();
+		anOrder.searchById(1);
 
-		System.out.println("Total cost is: ");
-		System.out.println(anOrder.totalCost());
 	}
 }
