@@ -17,13 +17,9 @@ public class GarbageCreator {
 
             // Measure the time for inefficient string concatenation
             startTime = System.currentTimeMillis();
-           // String outputString = "";
-          //  for (byte b : inputBytes) {
-          //      outputString += (char) b; // Inefficient concatenation
-         //   }
-            StringBuilder outputStringBuilder = new StringBuilder();
-            for ( byte b : inputBytes) {
-            	outputStringBuilder.append((char)b);
+           String outputString = "";
+          for (byte b : inputBytes) {
+               outputString += (char) b; // Inefficient concatenation   	
             }
             endTime = System.currentTimeMillis();
 

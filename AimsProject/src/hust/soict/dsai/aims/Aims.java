@@ -74,6 +74,7 @@ public class Aims {
 		//System.out.println(anOrder.totalCost());
 		anOrder.printCart();
 		anOrder.searchById(1);
+		anOrder.searchByTitle("Aladdin");
 
 	}
 }
